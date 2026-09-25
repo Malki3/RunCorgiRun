@@ -9,16 +9,16 @@ public class KeyBoardInput : MonoBehaviour {
     {
         Keyboard keyboard = Keyboard.current;
 
-        if (keyboard.wKey.wasPressedThisFrame) {
+        if (keyboard.wKey.isPressed) {
             corgi.Move(Vector2.up);
         }
-        else if (keyboard.sKey.wasPressedThisFrame) {
+        if (keyboard.sKey.isPressed) {
             corgi.Move(Vector2.down);
         }
-        else if (keyboard.aKey.wasPressedThisFrame) {
+        if (keyboard.aKey.isPressed) {
             corgi.Move(Vector2.left);
         }
-        else if (keyboard.dKey.wasPressedThisFrame)
+        if (keyboard.dKey.isPressed)
         {
             corgi.Move(Vector2.right);
         }

@@ -2,5 +2,5 @@ using UnityEngine;
 
 public static class GameParameters
 {
-   public static float CorgiMoveSpeed = 3f;
+   public static float CorgiMoveSpeed = 12f;
 }

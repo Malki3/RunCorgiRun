@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552820666855579499}
   - component: {fileID: 4758360689375787778}
+  - component: {fileID: -1699925533209021629}
   m_Layer: 0
   m_Name: poop
   m_TagString: Untagged
@@ -92,3 +93,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &-1699925533209021629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8979396822902896908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da82c9fcb7d6f4623872f467235516aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Poop

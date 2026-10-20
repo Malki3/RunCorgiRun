@@ -483,8 +483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bd9c362398cf431d9d8affebc785dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyboardInput
-  Corgi: {fileID: 0}
-  PoopPlacer: {fileID: 0}
+  Corgi: {fileID: 420510900}
+  PoopPlacer: {fileID: 1038709249}
 --- !u!4 &580102543
 Transform:
   m_ObjectHideFlags: 0
@@ -611,6 +611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1038709250}
   - component: {fileID: 1038709249}
+  - component: {fileID: 1038709251}
   m_Layer: 0
   m_Name: Placers
   m_TagString: Untagged
@@ -646,6 +647,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1038709251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038709248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db1e50ae838b40cc8ca352c614feaca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeerPlacer
+  BeerPrefab: {fileID: 4895279927258627118, guid: 0c32a7d65716b4558ba8394f1bde0ddf, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
